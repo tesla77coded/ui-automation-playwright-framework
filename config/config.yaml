@@ -1,0 +1,5 @@
+browser:
+  headless: false
+
+app:
+  base_url: "https://www.saucedemo.com/"

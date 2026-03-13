@@ -1,6 +1,6 @@
 {
   "venvPath": ".",
-  "venv": "venv",
+  "venv": ".venv",
   "include": ["pages", "tests", "utils", "fixtures"],
   "typeCheckingMode": "basic",
   "reportMissingImports": true,
