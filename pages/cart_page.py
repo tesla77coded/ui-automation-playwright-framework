@@ -1,4 +1,3 @@
-from _typeshed import ProfileFunction
 from pages.base_page import BasePage
 from utils.logger import get_logger
 

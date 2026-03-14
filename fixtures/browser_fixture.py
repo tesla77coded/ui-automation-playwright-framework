@@ -24,6 +24,8 @@ def browser():
 def page(browser):
     logger.info("Creating new browser context and page")
     context = browser.new_context()
+
+    context.tracing.start(screenshots=True, snapshots=True, source=True)
     page = browser.new_page()
 
     yield page
